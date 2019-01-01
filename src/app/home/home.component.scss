@@ -1,0 +1,41 @@
+h1{
+    font-size: 2em;
+    text-align: center;
+    font-weight: .5px;
+    line-height: 0.5em;
+
+    img{
+        font-weight: normal;
+        font-size: 0.5em;
+    }
+
+    p{
+        text-align: center;
+        font-size: 0.5em;
+        font-weight: normal;
+        line-height: 1.2em;
+    }
+}
+
+div{
+    text-align: center;   
+}
+
+.button{
+    align-self: center;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    display: inline-block;
+    margin: 10px;
+
+    &:hover{
+        background-color:  rgb(2, 69, 121);
+        color: white;
+    }
+}
