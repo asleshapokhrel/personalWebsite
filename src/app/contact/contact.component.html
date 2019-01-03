@@ -1,6 +1,34 @@
+<h1>Contact Me</h1>
+
+<form [formGroup]="messageForm" method="POST" 
+    action="https://formspree.io/asleshapokhrel@gmail.com">
+    <label>
+        Name:
+        <input type="text" placeholder="Your Name" formControlName="name">
+    </label>
+
+    <label>
+        Email:
+        <input type="text" placeholder="Your email address" formControlName="email">
+    </label>
+
+    <label>
+        Message:
+        <textarea formControlName="message" placeholder="Type your message here"
+            name="name"></textarea>
+    </label>
+
+    <input type="submit" value="Send message" class="cta">
+
+</form>
+
 <div id="images">
-  <a class="button" href="https://github.com/asleshapokhrel">
-      <img  class="logos" src="assets/img/github.png"></a>
-  <a class="button" href="https://www.linkedin.com/in/aslesha-pokhrel-1291a7156">
-      <img  class="logos" src="assets/img/linkedin.png"></a>
+    <p style="color:gray; font-size:80%; text-align: center; height: 0em">
+        Get in Touch</p>
+    <a class="button" href="mailto:asleshapokhrel@gmail.com">
+        <img  class="logos" src="assets/img/gmail.png"></a>
+    <a class="button" href="https://github.com/asleshapokhrel">
+        <img  class="logos" src="assets/img/github.png"></a>
+    <a class="button" href="https://www.linkedin.com/in/aslesha-pokhrel-1291a7156">
+        <img  class="logos" src="assets/img/linkedin.png"></a>
 </div>

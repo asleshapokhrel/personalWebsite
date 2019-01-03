@@ -1,11 +1,33 @@
-.logos{
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 30px;
-    padding: 0.5em; 
+label {
+    display: block;
+    
+    input{
+        display: block;
+        width: 50%;
+        margin-bottom: 20px;
+        font-size: 0.8em;
+    }
+
+    textarea{
+        width: 50%;
+        margin-bottom: 20px;
+        display: block;
+        font-size: 1em;
+    }
 }
 
-#images{
-    text-align:center;
+.cta {
+    background: black;
+    border: none;
+    color: white;
+
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 1em;
+    cursor: pointer;
+
+    &:hover{
+        background-color: gray;
+        color: black;
+    }
 }
